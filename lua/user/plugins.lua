@@ -3,7 +3,6 @@ lvim.plugins = {
     'jwalton512/vim-blade',
     ft = "blade",
   },
-  { "github/copilot.vim" },
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
   ,
   { 'mattn/emmet-vim' },
@@ -33,5 +32,7 @@ lvim.plugins = {
     }
   },
   { "xiyaowong/transparent.nvim" },
-  { "ThePrimeagen/harpoon" }
+  { "ThePrimeagen/harpoon" },
+  { 'mfussenegger/nvim-jdtls' },
+  { 'windwp/nvim-ts-autotag' },
 }
