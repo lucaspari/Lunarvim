@@ -35,4 +35,5 @@ lvim.plugins = {
   { "ThePrimeagen/harpoon" },
   { 'mfussenegger/nvim-jdtls' },
   { 'windwp/nvim-ts-autotag' },
+  { 'github/copilot.vim' },
 }

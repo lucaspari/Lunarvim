@@ -6,4 +6,5 @@ reload('user.plugins')
 reload("user.settings.catpuccin")
 reload("user.settings.whichkey")
 reload("user.settings.vim")
-reload("user.settings.copilot")
+vim.g.copilot_no_tab_map = true
+vim.api.nvim_set_keymap("i", "<A-6>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
